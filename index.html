@@ -22,10 +22,10 @@
             <nav class="nav">
                 <ul class="nav__links">
                     <li>
-                        <a class="nav__link" href="#">Menu</a>
+                        <a class="nav__link" href="#menu">Menu</a>
                     </li>
                     <li>
-                        <a class="nav__link" href="#">Recipes</a>
+                        <a class="nav__link" href="#recipes">Recipes</a>
                     </li>
                     <li>
                         <a class="nav__link" href="#">Book a table</a>
@@ -57,7 +57,7 @@
             </div>
         </header>
         <main class="content">
-            <section class="menu">
+            <section class="menu" id="menu">
                 <h2 class="menu__title">Menu</h2>
                 <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection
                 are $2/cup.</p>
@@ -138,7 +138,28 @@
                     </div>
                 </div>
             </section>
-            <section class="recipes"></section>
+            <section class="recipes" id="recipes">
+                <h2 class="recipes__title">Recipes</h2>
+                <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+                <div class="recipes__videos">
+                    <div class="recipes__video-content">
+                        <iframe class="recipes__iframe" id="ytplayer" type="text/html" width="480" height="273 " src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                        frameborder="0" allowfullscreen></iframe>
+                        <div class="recipes__video-caption">
+                            <p class="recipes__video-caption-item">Aeropress recipe</p>
+                            <p class="recipes__video-caption-item">~5 min</p>
+                        </div>
+                    </div>
+                        <div class="recipes__video-content">
+                          <iframe class="recipes__iframe" id="ytplayer" type="text/html" width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8"
+                        frameborder="0" allowfullscreen></iframe>
+                        <div class="recipes__video-caption">
+                            <p class="recipes__video-caption-item">French press recipe</p>
+                            <p class="recipes__video-caption-item">~15 min</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section class="reservation"></section>
             <section class="about"></section>
 
