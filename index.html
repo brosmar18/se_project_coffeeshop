@@ -28,7 +28,7 @@
                         <a class="nav__link" href="#recipes">Recipes</a>
                     </li>
                     <li>
-                        <a class="nav__link" href="#">Book a table</a>
+                        <a class="nav__link" href="#reservation">Book a table</a>
                     </li>
                     <li>
                         <a class="nav__link" href="#">Contacts</a>
@@ -160,7 +160,28 @@
                     </div>
                 </div>
             </section>
-            <section class="reservation"></section>
+            <section class="reservation" id="reservation">
+                <h2 class="reservation__title">Book a table</h2>
+                <form class="reservation__form">
+                    <fieldset class="form__fieldset">
+                        <label class="form__label" for="full-name">Name *</label>
+                        <input class="form__input" type="text" id="full-name" placeholder="Name Surname">
+                        <label class="form__label" for="guest-number">Number of guests *</label>
+                        <input class="form__input" type="number" min="1" max="8" id="guest-number" placeholder="1-8">
+                        <label class="form__label" for="date">Date & time *</label>
+                        <input class="form__input" type="datetime-local" id="date">
+                        <label class="form__label" for="email">Your email *</label>
+                        <input class="form__input" type="email" id="email" placeholder="email@email.com">
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <button class="form__button" type="submit">Book a table</button>
+                    </fieldset>
+                    <fieldset class="form__fieldset-terms">
+                        <label for="agree" class="form__label">I agree with the terms of use</label>
+                        <input class="form__checkbox form__checkbox" type="checkbox" name="terms-of-use" value="yes">
+                    </fieldset>
+                </form>
+            </section>
             <section class="about"></section>
 
         </main>
