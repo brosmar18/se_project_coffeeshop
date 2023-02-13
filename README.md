@@ -13,4 +13,6 @@ This is the second project of the Software Engineer program at Practicum by Yand
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Creating separate pages for nav links rather than having one long page. Individual pages would allow for more in depth information such nutrition info for the menu.
+- Add written recipes to recipes section so that the user doesn't have to watch the video to see all ingredients and steps.
+- The reservation section should prompt a message for the user if the reservation cannot be accommodated.

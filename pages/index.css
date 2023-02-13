@@ -124,10 +124,12 @@
     list-style: none;
     padding-left: 80px;
     margin: 0;
+    color: #6f6f6f;
 }
 
 .header__address {
     padding-right: 80px;
+    color: #6f6f6f;
 }
 
 .menu {
@@ -146,7 +148,7 @@
     text-align: center;
     padding-top: 100px;
     font-family: 'Inter', sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 44px;
     line-height: 52px;
 
@@ -209,9 +211,10 @@
 
 }
 
-.card__theme_baked-goods {
+.card:nth-child(3) {
     margin: 100px auto 0;
 }
+
 
 .recipes {
     background-color: #ffffff;
@@ -288,35 +291,35 @@
     padding-top: 80px;
 }
 
-.form__fieldset {
+.reservation__fieldset {
     display: flex;
     flex-direction: column;
     border: none;
     padding: 0;
 }
 
-.form__label {
+.reservation__label {
     padding-bottom: 8px;
 }
 
-.form__input {
+.reservation__input {
     border: #838383 solid 4px;
     max-width: 385px;
     height: 60px;
     margin-bottom: 32px;
 }
 
-.form__input::placeholder {
+.reservation__input::placeholder {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
 
-.form__button {
+.reservation__button {
     height: 60px;
     color: #fff;
     background-color: #2f80ed;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -325,11 +328,11 @@
     transition: opacity 0.5s ease;
 }
 
-.form__button:hover {
+.reservation__button:hover {
     opacity: 70%;
 }
 
-.form__fieldset-terms {
+.reservation__fieldset-terms {
     border: none;
     display: flex;
     justify-content: center;
@@ -337,7 +340,7 @@
     padding: 0 0 120px;
 }
 
-.form__label_theme-terms {
+.reservation__label_theme-terms {
     margin-left: 12px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -345,7 +348,7 @@
     line-height: 20px;
 }
 
-.form__checkbox {
+.reservation__checkbox {
     appearance: none;
 }
 
