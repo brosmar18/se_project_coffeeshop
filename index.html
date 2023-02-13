@@ -172,13 +172,11 @@
                         <input class="form__input" type="datetime-local" id="date">
                         <label class="form__label" for="email">Your email *</label>
                         <input class="form__input" type="email" id="email" placeholder="email@email.com">
-                    </fieldset>
-                    <fieldset class="form__fieldset">
-                        <button class="form__button" type="submit">Book a table</button>
+                        <button class="form__button" type="reset">Book a table</button>
                     </fieldset>
                     <fieldset class="form__fieldset-terms">
-                        <label for="agree" class="form__label">I agree with the terms of use</label>
-                        <input class="form__checkbox form__checkbox" type="checkbox" name="terms-of-use" value="yes">
+                        <input class="form__checkbox" name="terms-of-use" value="yes" id="agree" type="checkbox">
+                        <label class="form__label form__label_theme-terms" for="agree">I agree with the terms of use</label>
                     </fieldset>
                 </form>
             </section>
