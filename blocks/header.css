@@ -9,41 +9,6 @@
     position: relative;
 }
 
-.nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.logo {
-    width: 125px;
-    height: 142px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    bottom: 80px;
-}
-
-.nav__links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    padding-top: 30px;
-    padding-right: 80px;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    line-height: 20px;
-}
-
-.nav__link {
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.3s linear;
-}
-
-.nav__link:hover {
-    color: #2f80ed;
-}
 
 .header__title {
     padding-top: 202px;
@@ -81,28 +46,27 @@
     right: 5px;
 }
 
+
 .header__footer {
-    position: absolute;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
     bottom: 40px;
+    left: 80px;
+    right: 80px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     margin: 0;
+    color: #6f6f6f;
 }
 
-.header__hours-list {
-    list-style: none;
-    padding-left: 80px;
+.header__paragraph-item {
     margin: 0;
-    color: #6f6f6f;
 }
 
-.header__address {
-    padding-right: 80px;
-    color: #6f6f6f;
+.header__paragraph {
+    margin: 0;
 }
